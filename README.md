@@ -1,2 +1,16 @@
-# colab-rag-thesis
-A lightweight RAG pipeline using LLaMA 3 to answer questions from a thesis PDF.
+# 🧠 Thesis-RAG-QA
+
+A simple Colab-based Retrieval-Augmented Generation (RAG) pipeline that uses **LLaMA 3** (8B Instruct, 4-bit quantized) to answer questions based on your **thesis PDF**.
+
+### 🚀 Features
+- Upload your thesis PDF
+- Chunks text with overlap
+- Embeds with `SentenceTransformers`
+- Retrieves relevant chunks using `FAISS`
+- Uses LLaMA 3 for question answering
+
+### 🛠️ Requirements
+```bash
+pip install -U bitsandbytes transformers accelerate
+pip install sentence-transformers faiss-cpu PyPDF2
+
