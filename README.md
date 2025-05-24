@@ -9,8 +9,3 @@ A simple Colab-based Retrieval-Augmented Generation (RAG) pipeline that uses **L
 - Retrieves relevant chunks using `FAISS`
 - Uses LLaMA 3 for question answering
 
-### 🛠️ Requirements
-```bash
-pip install -U bitsandbytes transformers accelerate
-pip install sentence-transformers faiss-cpu PyPDF2
-
